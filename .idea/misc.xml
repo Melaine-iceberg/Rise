@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>代码中的冗余C/C++</id>
+          </State>
+          <State>
+            <id>校对</id>
+          </State>
+          <State>
+            <id>潜在的代码质量问题C/C++</id>
+          </State>
+          <State>
+            <id>语法样式C/C++</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>校对</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="TypeScriptCompiler">
+    <option name="memoryAutoIncrease" value="true" />
+  </component>
+</project>
