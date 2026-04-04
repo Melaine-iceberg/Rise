@@ -1,27 +1,21 @@
-### C++ template
-# Prerequisites
+### C++ artifacts
+# Prerequisites / dependency files
 *.d
 
-# Compiled Object files
+# Object and intermediate files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
@@ -32,17 +26,28 @@
 *.out
 *.app
 
-### CMake template
-CMakeLists.txt.user
+### CMake / build artifacts
+# Out-of-source build directories
+cmake-build-*/
+build/
+build-*/
+out/
+
+# In-source generated files
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
+CMakeScripts/
+Testing/
 Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
+_deps/
 CMakeUserPresets.json
 
+### CLion / IDE
+.idea/
+
+### vcpkg manifest mode artifacts
+vcpkg_installed/
