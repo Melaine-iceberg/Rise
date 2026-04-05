@@ -5,22 +5,20 @@
   },
   "configurePresets": [
     {
-      "name": "default",
-      "displayName": "Default",
-      "description": "Default build with vcpkg manifest integration",
+      "name": "debug",
+      "displayName": "Debug",
+      "description": "Local debug build for the co_async library",
       "generator": "Unix Makefiles",
-      "binaryDir": "${sourceDir}/cmake-build-debug",
-      "toolchainFile": "${sourceDir}/../vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "binaryDir": "${sourceDir}/build/debug",
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Debug",
-        "VCPKG_INSTALLED_DIR": "${sourceDir}/vcpkg_installed"
+        "CMAKE_BUILD_TYPE": "Debug"
       }
     }
   ],
   "buildPresets": [
     {
-      "name": "default",
-      "configurePreset": "default"
+      "name": "debug",
+      "configurePreset": "debug"
     }
   ]
 }

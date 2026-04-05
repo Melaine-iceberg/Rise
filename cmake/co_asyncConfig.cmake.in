@@ -7,3 +7,4 @@ find_dependency(ZLIB REQUIRED)
 pkg_check_modules(LIBURING REQUIRED IMPORTED_TARGET liburing)
 
 include("${CMAKE_CURRENT_LIST_DIR}/co_asyncTargets.cmake")
+check_required_components(co_async)

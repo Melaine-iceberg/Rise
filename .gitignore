@@ -48,6 +48,10 @@ CMakeUserPresets.json
 
 ### CLion / IDE
 .idea/
+.cache/
 
 ### vcpkg manifest mode artifacts
 vcpkg_installed/
+
+### Windows metadata leftovers
+**/*:Zone.Identifier
