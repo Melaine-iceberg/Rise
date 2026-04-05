@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "vendor": {
     "jetbrains.com/clion": {}
   },
@@ -7,12 +7,13 @@
     {
       "name": "default",
       "displayName": "Default",
-      "description": "Default build with vcpkg integration",
+      "description": "Default build with vcpkg manifest integration",
       "generator": "Unix Makefiles",
       "binaryDir": "${sourceDir}/cmake-build-debug",
+      "toolchainFile": "${sourceDir}/../vcpkg/scripts/buildsystems/vcpkg.cmake",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CMAKE_PREFIX_PATH": "${sourceDir}/vcpkg_installed/x64-linux/share"
+        "VCPKG_INSTALLED_DIR": "${sourceDir}/vcpkg_installed"
       }
     }
   ],
